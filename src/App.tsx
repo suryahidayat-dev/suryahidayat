@@ -23,7 +23,7 @@ export default function App() {
         
         {/* Avatar */}
         <img
-          src="/src/assets/ic-surya.png"
+          src="/ic-surya.png"
           alt="Surya Avatar"
           className="w-28 h-28 sm:w-36 sm:h-36 mx-auto mb-4 rounded-full object-cover ring-2 ring-white/20"
         />
