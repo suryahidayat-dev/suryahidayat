@@ -1,8 +1,9 @@
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
 
 @layer base {
   :root {
-    color-scheme: dark;
+    color-scheme: light;
   }
 
   html {
@@ -10,7 +11,7 @@
   }
 
   body {
-    @apply min-h-screen bg-slate-950 text-slate-100 antialiased;
+    @apply min-h-screen bg-slate-50 text-slate-900 antialiased transition-colors duration-300 dark:bg-slate-950 dark:text-slate-100;
   }
 
   h1 {
